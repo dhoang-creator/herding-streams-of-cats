@@ -4,13 +4,11 @@ ThisBuild / scalaVersion := "2.12.4"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "POSOTemplate"
+    name := "Herding-Streams-Of-Cats"
   )
 
-lazy val zioVersion = "2.0.10"
-
 libraryDependencies ++= Seq(
-
+  // Cats & Cats Effect
+  "org.typelevel" %% "cats-core" % "2.9.0",
+  "org.typelevel" %% "cats-effect" % "3.4.9"
 )
-
-testFrameworks += TestFramework("zio.test.sbt.ZTestFramework")
