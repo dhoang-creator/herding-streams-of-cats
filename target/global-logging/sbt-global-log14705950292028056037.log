@@ -1,0 +1,86 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 19.0.2)
+[debug]       Load.loadUnit: plugins took 184.424736ms
+[debug]       Load.loadUnit: defsScala took 0.458604ms
+[debug] [Loading] Scanning directory /Users/duyhoang/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/duyhoang/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 34.970283 ms
+[debug]           Load.resolveProject(global-plugins) took 60.603577ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/duyhoang/.sbt/1.0/plugins, plugins: List(<none>))) took 129.052301ms
+[debug] [Loading] Done in /Users/duyhoang/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 163.245203ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.329725ms
+[debug]     Load.loadUnit(file:/Users/duyhoang/.sbt/1.0/plugins/, ...) took 366.49436ms
+[debug]   Load.apply: load took 951.185795ms
+[debug]   Load.apply: resolveProjects took 12.817913ms
+[debug]   Load.apply: finalTransforms took 92.149777ms
+[debug]   Load.apply: config.delegates took 10.328444ms
+[debug]   Load.apply: Def.make(settings)... took 797.536277ms
+[debug]   Load.apply: structureIndex took 184.676882ms
+[debug]   Load.apply: mkStreams took 2.938096ms
+[info] loading global plugins from /Users/duyhoang/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5225.737357ms
+[debug]           Load.loadUnit: plugins took 58.304639ms
+[debug]           Load.loadUnit: defsScala took 0.010585ms
+[debug] [Loading] Scanning directory /Users/duyhoang/Desktop/Github Projects/herding-streams-of-cats/project
+[debug]             Load.loadUnit: mkEval took 8.355667ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/duyhoang/Desktop/Github Projects/herding-streams-of-cats/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.444269 ms
+[info] loading settings for project herding-streams-of-cats-build from plugins.sbt ...
+[debug]               Load.resolveProject(herding-streams-of-cats-build) took 4.656062ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id herding-streams-of-cats-build, base: /Users/duyhoang/Desktop/Github Projects/herding-streams-of-cats/project, plugins: List(<none>))) took 8.848723ms
+[debug] [Loading] Done in /Users/duyhoang/Desktop/Github Projects/herding-streams-of-cats/project, returning: (herding-streams-of-cats-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3942.84129ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.471301ms
+[debug]         Load.loadUnit(file:/Users/duyhoang/Desktop/Github%20Projects/herding-streams-of-cats/project/, ...) took 4011.332935ms
+[debug]       Load.apply: load took 4013.881919ms
+[debug]       Load.apply: resolveProjects took 0.16628ms
+[debug]       Load.apply: finalTransforms took 23.353515ms
+[debug]       Load.apply: config.delegates took 0.524173ms
+[debug]       Load.apply: Def.make(settings)... took 210.173857ms
+[debug]       Load.apply: structureIndex took 77.716761ms
+[debug]       Load.apply: mkStreams took 0.003313ms
+[info] loading project definition from /Users/duyhoang/Desktop/Github Projects/herding-streams-of-cats/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4755.482988ms
+[debug]     Load.loadUnit: defsScala took 0.006332ms
+[debug] [Loading] Scanning directory /Users/duyhoang/Desktop/Github Projects/herding-streams-of-cats
+[debug]       Load.loadUnit: mkEval took 0.345196ms

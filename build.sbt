@@ -9,6 +9,13 @@ lazy val root = (project in file("."))
 
 libraryDependencies ++= Seq(
   // Cats & Cats Effect
-  "org.typelevel" %% "cats-core" % "2.9.0",
-  "org.typelevel" %% "cats-effect" % "3.4.9"
+  "org.typelevel"         %% "cats-core"              % "2.9.0",
+  "org.typelevel"         %% "cats-effect"            % "3.4.9",
+
+  // MUnits
+  "org.typelevel"         %% "munit-cats-effect-3"    % "1.0.7" % Test,
+
+  "com.disneystreaming"   %% "weaver-cats"            % "0.8.1" % Test
 )
+
+testFrameworks += new TestFramework("weaver.framework.CatsEffect")
